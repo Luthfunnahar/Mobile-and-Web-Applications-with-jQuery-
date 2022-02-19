@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LolPhnz>
+<phones>
+	<id>1</id>
+	<name>Iphone 5S</name>
+	<url>http://shop.vodafone.ie/shop/phones/like-new-apple-iphone-5s-16gb-pay-as-you-go-space-grey</url>
+</phones>
+
+<phones>
+	<id>2</id>
+	<name>Iphone 6</name>
+	<url>https://www.arphonewarehouse.ie/shop/phones-plans/all-phones/iphone-6-32gb</url>
+</phones>
+
+<phones>
+	<id>3</id>
+	<name>Iphone 6</name>
+	<url>http://shop.vodafone.ie/shop/phones/apple-iphone-8-64gb-bill-pay-space-grey</url>
+</phones>
+
+<phones>
+	<id>4</id>
+	<name>HTC One M8</name>
+	<url>https://www.techradar.com/reviews/phones/mobile-phones/htc-one-m8-1235307/review</url>
+</phones>
+
+<phones>
+	<id>5</id>
+	<name>Galaxy Alpha</name>
+	<url>https://en.wikipedia.org/wiki/Samsung_Galaxy_Alpha</url>
+</phones>
+
+<phones>
+	<id>6</id>
+	<name>Samsung Galaxy S5</name>
+	<url>http://www.samsung.com/ie/smartphones/galaxy-s5-g900f/</url>
+</phones>
+
+<phones>
+	<id>7</id>
+	<name>Nokia Lumia</name>
+	<url>https://www.carphonewarehouse.ie/bundles/nokia-lumia-630-hipstreet-bundle</url>
+</phones>
+
+<phones>
+	<id>7</id>
+	<name>Nokia Lumia</name>
+	<url>https://www.carphonewarehouse.ie/bundles/nokia-lumia-630-hipstreet-bundle</url>
+</phones>
+
+<phones>
+	<id>8</id>
+	<name>Sony Xperia Z3</name>
+	<url>https://www.gsmarena.com/sony_xperia_z3-pictures-6539.php</url>
+</phones>
+
+<phones>
+	<id>9</id>
+	<name>Zte Nubia</name>
+	<url>https://www.gsmarena.com/zte_nubia_red_magic-pictures-9174.php</url>
+</phones>
+
+
+</LolPhnz>
