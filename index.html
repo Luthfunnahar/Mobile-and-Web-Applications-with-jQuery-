@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+	<title>WMA apps WorkShop 5 sidepanel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="assets/themes/awsblue.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="assets/css/jquery.mobile.structure-1.4.5.min.css"/>    
+    <link rel="stylesheets" href="assets/css/jquery.mobile-1.4.5.min.css">
+    
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="assets/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+	</style>
+</head>
+
+<body>
+
+<!------------ Start Of MAIN page ----------->
+	<div data-role="page" id="mainPage">	
+   		<!-- Header -->
+        <div data-role="header" class="jqm-header">			
+            <h1 class="jqm-logo"><img src="assets/images/logo.png" alt="jQuery Mobile Framework"></h1>
+            <a href="#mySidenav" class="uit-btn">&#9776;</a>            
+            <a href="#searchPage" class="uit-btn" >&#x2315;</a>
+		</div>
+       
+        <!-- List Parse data from XML file -->
+       	<div data-role="content">
+        
+       		<div data-role="collapsible">
+                <h4>Collapsible Content - JASON PRODUCT </h4>
+                </br>
+                <a href="#jsonProduct" data-role="button" data-mini="true" data-transition="flip">Click Here to go JASON PRODUCT PAGE</a>
+                </br>
+            </div>
+            
+            <div data-role="collapsible">
+                <h4>Filter Search Data</h4>
+                </br>
+                <a href="#searchPage" data-role="button" data-mini="true" data-transition="turn">Click Here to go FILTER PAGE</a>
+                </br>
+            </div>
+            
+            <div data-role="collapsible">
+                <h4>Collapsible Content - JASON TABLE </h4>
+                </br>
+                <a href="#jsonTable" data-role="button" data-mini="true" data-transition="slideup">Click Here to go JASON PRODUCT TABLE PAGE</a>
+                </br>
+            </div>
+            
+         </div>
+             
+        <!-- SidePanel -->
+	    <div data-role="panel" id="mySidenav" class="sidenav" data-display="reveal" data-position="left">
+              <a href="#about" data-transition="flip">About</a>
+              <a href="#service" data-transition="pop">Criteria</a>
+              <a href="#contact" data-transition="slideup">Contact</a>
+ 		 </div> 
+       
+       <!-- Footer -->
+       <div data-role="footer" class="footer">
+                 <a href="#about" class="uit-btn" data-iconpos="notext">&#1110;</a> 
+                 <a href="#service" class="uit-btn" data-iconpos="notext">&#x1f6c8;</a>
+                 <a href="#contact" class="uit-btn" data-iconpos="notext">&#x1f4f1;</a></br> 
+                <p class="footer-text">&copy; <script>document.write(new Date().getFullYear());</script> Luthfunnahar Hussain</p>                
+       </div>
+	</div>
+<!------------ End Of Main page ----------->
+ 
+ 
+<!------------ Start Of ABOUT page ----------->
+    <div data-role="page" id="about">
+    	<div data-role="header">
+			<h1>About MobApp's</h1>
+            <a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a>
+            
+		</div>
+          
+        <div data-role="content">  
+       		 <h3>MobApp Phones </h3> 
+    		<p>A mobile phone, known as a cell phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. Modern mobile telephone services use a cellular network architecture, and, therefore, mobile telephones are called cellular or cell phones. 2000s-era mobile phones support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications, business applications etc.</p>
+            <img src="assets/images/devices.png" alt="All Relavant devices" id="jqm-devices" />            
+        	<h3> jQuery Mobile </h3>             
+    		<p>jQuery Mobile takes the "write less, do more" mantra to the next level: Instead of writing unique applications for each mobile device or OS, the jQuery mobile framework allows you to design a single highly-branded responsive web site or application that will work on all popular smartphone, tablet, and desktop platforms.</p>
+            <a href="#mainPage" data-role="button" data-mini="true">Back to Main page</a>
+		</div>    
+    </div>
+<!------------ end Of About page ----------->
+ 
+ 
+<!------------ Start Of SERVICE page ----------->
+    <div data-role="page" id="service">
+    	<div data-role="header">
+			<h1>MobApp Services</h1>
+            <a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a>
+		</div>
+          
+        <div data-role="content">  
+            <p>MobApp - in-house design and development in native mobile "list App" which development with Mobile App web Application based on <strong>Mobile jQuery</strong>. List Generated from JSON file and list Generated from XML file. Its Totally based on jQuery Mobile across all the main mobile platforms.</p>
+    
+            <h4>JQM Based</h4>
+            <p>A Touch-Optimized Web Framework. jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.</p>
+    
+            <h4>Themed</h4>
+            <p>Give a particular theme which customise and change through <a href="http://themeroller.jquerymobile.com" target="_blank">Themeroller</a></p>
+    
+            <h4>Local JSON File</h4>
+            <p>It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language. <a href="https://www.youtube.com/watch?v=rJesac0_Ftw" target="_blank">Resource</a>. validated Json file too foro <a href="https://jsonlint.com/?json=%7B"hello":%20"world"%7D#" target="_blank">Resource</a></p>
+    
+             <h4>Filterable list</h4>
+             <p>Filterable list generated from <strong>XML</strong> file. Resource from <strong>DSA</strong> tutorial.</p>
+             
+             <h4>Side Panel</h4>
+             <p>In this Page always display the navigation pane to the left of the page. <a href="https://www.w3schools.com/howto/howto_js_sidenav.asp" target="_blank">Resource</a></p>
+                
+             
+             <h4>jQuery Contact form</h4>
+             <p>Retrive the data fromthe contact form via PHP. I didnt submit any data to mail server. Resource from <strong>DSA</strong> tutorial and <a href="https://www.youtube.com/watch?v=MyBHswWE8ik" target="_blank">YouTube</a></p>
+             <h4>Pages open with Transition</h4>
+             <h4>Best Practise of Loading JS and External file</h4>
+             <h4>Sensible Directory Structure</h4>
+             <h4>Neat Source Code</h4>
+             <h4>Good Naming Convention</h4>         
+             
+             <a href="#mainPage" data-role="button" data-mini="true">Back to Main page</a>
+		</div>
+    </div>
+<!------------ End Of SERVICE page ----------->
+
+ 
+<!------------- Start Of CONTACT page ----------->
+    <div data-role="page" id="contact">
+        <div data-role="header">
+			<h1>Contact MobApp's</h1>
+            <a href="#mainPage" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a>
+		</div>
+    
+        <div data-role="main" class="ui-content">
+        <form method="post" action="result.php" data-transition="pop" data-direction="reverse" />
+         <fieldset> 
+         	<div data-role="fieldcontain">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                <input type="email" id="email" name="email" placeholder="E-mail"/>
+            </div>
+            <div data-role="fieldcontain"> 
+                <label for="flip">Flip Switch</label>
+                <select name="flip" id="flip" data-role="slider">
+                   <option value="no">No</option>
+                   <option value="yes">Yes</option>
+                </select>
+             </div>
+             <div data-role="fieldcontain">        
+                <fieldset data-role="controlgroup">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male" checked>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </fieldset>
+              </div>  
+              <div data-role="fieldcontain"> 
+                <fieldset data-role="controlgroup">
+                	<legend> Agree to the Terms : </legend></br>
+                	<input type="checkbox" name="checkbox1" id="checkbox1" value="I Agree"/>
+                 </fieldset>
+             </div>
+             <textarea name="comment" id="comment" placeholder="Message"></textarea>         
+             <input type="submit" data-inline="true" value="Send">
+          </fieldset>
+        </form>
+        
+        </div>
+               
+     </div>
+<!------------- End Of Contact page --------------->
+ 
+ 
+<!------------- Start Of Search page --------------->
+  <!--- Filtable data from XML(phoneData.xml) file --->
+	 <div data-role="page" id="searchPage">
+ 		<div data-role="header">
+ 			<h1>Filterable XML Data</h1>
+            <a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a> 
+     	</div>
+         
+ 		<div data-role="content">
+            <div class="content-primary">
+                <div data-demo-html="true">
+                	<ul data-role="listview" data-filter="true" data-filter-reveal="false" datafilter-placeholder="Search Phones" data-inset="true" id="mylist">
+                 	   <!-- List Parse data from XML file -->
+                    </ul>
+                    
+                </div>
+             </div>            
+     	</div>
+        
+         <div data-role="footer" class="footer">
+				<a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a> 
+                 <a href="#about" class="uit-btn" data-iconpos="notext">&#1110;</a> 
+                 <a href="#service" class="uit-btn" data-iconpos="notext">&#x1f6c8;</a>
+                 <a href="#contact" class="uit-btn" data-iconpos="notext">&#x1f4f1;</a> <a href="#mainPage" class="uit-btn" data-iconpos="notext">&#x2302;</a></br> 
+                <p class="footer-text">&copy; <script>document.write(new Date().getFullYear());</script> Luthfunnahar Hussain</p>                
+        </div>
+	 </div>
+ <!------------- End Of Search page --------------->
+
+ 
+<!-------------  Retrive JSON data from (products.json)------------>
+	 <div data-role="page" id="jsonProduct">
+ 		<div data-role="header">
+ 			<h1>ALl Product Item From JSON</h1>
+            <a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a> 
+     	</div>
+         
+ 			<div data-role="content" class="main-content">
+               <div data-demo-html="true" class="all-products page">
+                	<ul class="products-list">
+						<script id="products-template" type="x-handlebars-template">​
+                            {{#each this}}
+                                <li data-index="{{id}}">
+                                    <a href="#" class="product-photo"><img src="{{image.small}}" height="130" alt="{{name}}"/></a>
+                                    <h2><a href="#"> {{name}} </a></h2>
+                                    <ul class="product-description">
+                                        <li><span>Manufacturer: </span>{{specs.manufacturer}}</li>
+                                        <li><span>Storage: </span>{{specs.storage}} GB</li>
+                                        <li><span>OS: </span>{{specs.os}}</li>
+                                        <li><span>Camera: </span>{{specs.camera}} Mpx</li>
+                                    </ul>
+                                    <div class="highlight"></div>
+                                </li>
+                            {{/each}}
+                        </script>
+                    </ul>                    
+                </div>            
+     		</div>
+            
+            <div data-role="footer" class="footer">
+				<a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a> 
+                 <a href="#about" class="uit-btn" data-iconpos="notext">&#1110;</a> 
+                 <a href="#service" class="uit-btn" data-iconpos="notext">&#x1f6c8;</a>
+                 <a href="#contact" class="uit-btn" data-iconpos="notext">&#x1f4f1;</a> <a href="#mainPage" class="uit-btn" data-iconpos="notext">&#x2302;</a></br> 
+                <p class="footer-text">&copy; <script>document.write(new Date().getFullYear());</script> Luthfunnahar Hussain</p>                
+        	</div>
+	 </div>
+ <!------------- End Of Search page --------------->
+   
+  
+<!-------- Start Retrive JSON data from (birdydata.json) ------------>    
+    <div data-role="page" id="jsonTable">		       
+		
+        <div data-role="header" class="jqm-header">
+			<h1>Retrive Data from Json Table</h1>
+            <a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a> 
+		</div>
+          
+        <div data-role="content">
+        	<p align="center">JSON data  to html table using ajax JQuery getJSON Method 
+         		<table style="table-layout:auto; border:#D4D3D3 solid 1px; " id="birdTable" align="center">
+                    <tr style="border:#D4D3D3 solid 1px; ">
+                        <td><strong>Name</strong></td>
+                        <td><strong>Science</strong></td>
+                        <td><strong>Group</strong></td>
+                    </tr>
+                </table>       
+            </p>
+		</div>
+       
+       <div data-role="footer" class="footer">
+				<a href="#" onclick="goBack()" class="uit-btn" data-iconpos="notext" data-direction="reverse">&#x21e6;</a> 
+                 <a href="#about" class="uit-btn" data-iconpos="notext">&#1110;</a> 
+                 <a href="#service" class="uit-btn" data-iconpos="notext">&#x1f6c8;</a>
+                 <a href="#contact" class="uit-btn" data-iconpos="notext">&#x1f4f1;</a> <a href="#mainPage" class="uit-btn" data-iconpos="notext">&#x2302;</a></br> 
+                <p class="footer-text">&copy; <script>document.write(new Date().getFullYear());</script> Luthfunnahar Hussain</p>                
+        </div>
+	</div>
+<!-------------  End Retrive JSON data from (birdydata.json) ------------> 
+
+
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/jsn-producct.js"></script>
+
+<!-- Stiky Footer -->
+<script type="text/x-javascript">
+	$(function(){
+    checkWindowHeight();
+    $(document).bind('orientationchange',function(event){
+        checkWindowHeight();
+    })
+});
+
+function checkWindowHeight(){
+        $('[data-role=content]').each(function(){
+        var containerHeight = parseInt($(this).css('height'));
+        var windowHeight = parseInt(window.innerHeight);
+        if(containerHeight+118 < windowHeight){
+            var newHeight = windowHeight-218;
+            $(this).css('min-height', newHeight+'px');
+        }
+    });
+}
+  </script>
+
+	
+</body>
+</html>
