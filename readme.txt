@@ -34,7 +34,8 @@ Note: During coding this url is  http://localhost/webelevate/MWA/mwa-a1/index.ht
         Images etc
         Theme folder-------customised themes
     	   
-           
+           
+Used Zipeed File for assets and Ajax files
 
 
 UPLOADED lINK:
